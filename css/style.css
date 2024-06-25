@@ -4,3 +4,47 @@
     verde: #49a09d
     lílas: #5f2c82
 */
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #5f2c82;
+}
+
+#login {
+    background-color: white;
+    width: 250px;
+    height: 500px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#formulario > h1 {
+    text-align: center;
+}
+
+div > input {
+    width: 240px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.cadastro {
+    background-color: #5f2c82;
+    margin-top: 10px;
+    padding: 10px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.cadastro > span {
+    color: white;
+}
