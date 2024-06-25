@@ -13,7 +13,7 @@ body {
     background-color: #5f2c82;
 }
 
-#login {
+section#login {
     background-color: white;
     width: 250px;
     height: 500px;
@@ -27,7 +27,7 @@ body {
     transform: translate(-50%, -50%);
 }
 
-#formulario > h1 {
+div#formulario > h1 {
     text-align: center;
 }
 
@@ -37,7 +37,7 @@ div > input {
     border-radius: 5px;
 }
 
-.cadastro {
+div.cadastro {
     background-color: #5f2c82;
     margin-top: 10px;
     padding: 10px;
@@ -45,6 +45,6 @@ div > input {
     border-radius: 5px;
 }
 
-.cadastro > span {
+div.cadastro > span {
     color: white;
 }
