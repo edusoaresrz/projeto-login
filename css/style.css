@@ -1,9 +1,5 @@
 @charset "UTF-8";
 
-/*
-    verde: #49a09d
-    lílas: #5f2c82
-*/
 
 * {
     font-family: Arial, Helvetica, sans-serif;
@@ -13,7 +9,7 @@
 }
 
 body, html {
-    background-color: #5f2c82;
+    background-color: #302f2f;
     width: 100vw;
     height: 100vh;
 }
@@ -42,7 +38,7 @@ section#login {
 
 section#login > div#fundo {
     display: block;
-    background: #5f2c82 url(../imagens/fundo-de-vidro.jpg) no-repeat;
+    background: #302f2f url(../imagens/fundo-de-vidro.jpg) no-repeat;
     background-size: cover;
     height: 200px;
 }
