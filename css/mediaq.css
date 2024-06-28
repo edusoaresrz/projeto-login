@@ -7,7 +7,7 @@
 
     section#login {
         width: 90vw;
-        height: 350px;
+        height: 280px;
     }
 
     section#login > div#fundo {
@@ -31,7 +31,7 @@
 
     section#login {
         width: 900px;
-        height: 350px;
+        height: 300px;
     }
 
     section#login > div#fundo {
@@ -50,7 +50,8 @@
     }
 
     div#formulario > p {
-        font-size: 1.2em;
+        font-size: 1.1em;
+        margin: 10px 0px;
     }
     
 }
