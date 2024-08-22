@@ -15,9 +15,12 @@ body, html {
 }
 
 main {
-    position: relative;
     width: 100vw;
     height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 section#login {
@@ -27,11 +30,6 @@ section#login {
     border-radius: 20px;
     overflow: hidden;
 
-    position: absolute;
-    top: 50%;
-    left: 50%;
-
-    transform: translate(-50%, -50%);
     transition: width 0.3s, height 0.3s;
     transition-timing-function: ease;
 }
