@@ -1,5 +1,12 @@
 @charset "UTF-8";
 
+:root {
+    --cor-principal: #010BF5;
+    --cor-secundaria: #2227CA;
+    --cor-terciaria: #3539A0;
+    --cor-fundo: #D5ECF9;
+}
+
 
 * {
     font-family: Arial, Helvetica, sans-serif;
@@ -9,7 +16,7 @@
 }
 
 body, html {
-    background-color: #302f2f;
+    background-color: var(--cor-fundo);
     width: 100vw;
     height: 100vh;
 }
@@ -34,34 +41,41 @@ section#login {
     transition-timing-function: ease;
 }
 
-section#login > div#fundo {
-    display: block;
-    background: #302f2f url(../imagens/fundo-de-vidro.jpg) no-repeat;
-    background-size: cover;
-    height: 200px;
+div#fundo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: var(--cor-principal);
+    height: 280px;
+    border-radius: 0px 0px 30% 0px;
 }
 
-section#login > div#formulario {
-    display: block;
+div#fundo h1, p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
     padding: 10px;
 }
 
-div#formulario > h1 {
-    text-align: center;
-    margin-bottom: 10px;
+div#fundo p {
+    line-height: 1.3rem;
 }
 
-div#formulario > p {
-    font-size: 0.9em;
+
+div#formulario {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
 }
 
 div.cadastro {
     display: block;
     width: 100%;
     height: 40px;
-    background-color: #302f2f;
+    background-color: var(--cor-principal);
     border-radius: 8px;
-    border: 2px solid #302f2f;
+    border: 2px solid var(--cor-principal);
     margin: 5px 0px;
 }
 
@@ -78,16 +92,12 @@ div.cadastro > span {
 
 div.cadastro > input {
     font-size: 1em;
-    background-color: #ada6a6;
+    background-color: white;
     width: calc(100% - 45px);
     height: 100%; 
-    border-radius: 8px;
+    border-radius: 5px;
     border: none;
     transform: translateY(-13px);
-}
-
-div.cadastro > input:focus-within {
-    background-color: white;
 }
 
 form > input[type=submit] {
@@ -95,15 +105,16 @@ form > input[type=submit] {
     width: 100%;
     height: 40px;
     font-size: 1em;
-    background-color: #ada6a6;
+    background-color: var(--cor-principal);
+    color: white;
     border: none;
     border-radius: 8px;
     cursor: pointer;
 }
 
 form > input[type=submit]:hover {
-    background-color: #5c5a5a;
-    color: white;
+    background-color: var(--cor-fundo);
+    color: var(--cor-principal);
 }
 
 form > a.botao {
@@ -115,14 +126,14 @@ form > a.botao {
     text-align: center;
     text-decoration: none;
     font-size: 1em;
-    background-color: #ada6a6;
-    color: black;
+    background-color: var(--cor-principal);
+    color: white;
     border-radius: 8px;
 }
 
 form > a.botao:hover {
-    background-color: #5c5a5a;
-    color: white;
+    background-color: var(--cor-fundo);
+    color: var(--cor-principal);
 }
 
 form > a.botao > i {
