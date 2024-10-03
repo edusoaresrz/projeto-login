@@ -1,2 +1,4 @@
 # Projeto Login
- Exemplo de tela de login para telas com tamanhos diferentes
+ Exemplo de formulario de login para dispositivos com diferentes tamanhos de telas
+ 
+ Você pode acessa-lo clicando [aqui](https://edusoaresrz.github.io/projeto-login/)
